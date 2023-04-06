@@ -1,0 +1,178 @@
+.left img{
+    width: 120px;
+    height: 40px;
+}
+.nav-item
+{
+    padding-left: 20px;
+}
+.button1
+{
+    background-color: #fff;
+    border: none;
+    box-shadow:0 0 0 1px;
+}
+.data1
+{
+    font-size: 12px;
+    color: gray;
+}
+.logobody a{
+    text-decoration: none;
+    
+}
+.sliding
+{
+    display: none;
+
+}
+@media(max-width:769px){
+    .logobody
+        {
+        border: 1px solid;
+        border-radius: 25px;
+        height:40px ;
+        text-align: center;
+        background-color: #007ee5;
+        color: #fff;
+         }
+    .logobody a{
+        color: #fff;
+     }  
+     #logob3{
+        display: none;
+     }  
+    .sliding{
+        display: block;
+     }
+    .show1{
+        display: none;
+     }
+    .btlast
+     {
+        width: 100px;
+     }
+     .listrow
+     {
+        text-align: center;
+     }
+     .lastbtdiv{
+        padding-top: 0px;
+       
+    }
+
+}
+.carouselimg
+{
+    width: 80vw;
+    height: 100vw;
+}
+.imgsl
+{
+    width: 300px;
+    height: 500px;
+}
+.show1
+{
+    width: 100%;
+    height: 500px;
+}
+.lastbtdiv{
+    padding-top: 50px;
+   
+}
+.btlast
+{
+    
+    width: 500px;
+    height: 55px;
+    border-radius: 25px;
+    border-color: #007ee5;
+    color: #007ee5;
+    
+}
+.btlast a{
+    text-decoration: none;
+}
+.btlast:hover{
+    background-color: #b1d6f5;
+}
+.list1 a
+{
+    text-decoration: none;
+    color: gray;
+}
+.list1 a:hover, footer a:hover{
+    color: aqua;
+}
+
+.list1 li{
+    list-style-type: none;
+}
+.section3{
+    background-color: #313233;
+    color: white;
+}
+.section3 div >ul li{
+    margin-top: 20px;
+}
+.section-2{
+    background-color: #ebebeb;
+}
+.feature-content{
+    height: 550px;
+    width: 300px;
+    border-radius: 20px;
+    /* margin-left: 90px; */
+    margin-top: 20px;
+    padding: 20px;
+    color: #fff;
+}
+.home-info-call{
+    background-image: url(images/home_info_call.png);
+    background-size: cover;
+    color: #fff;
+    padding-top: 300px;
+}
+#callimg{
+    background-image: url(images/home_info_call.png);
+    background-size: cover;
+    color: #fff;
+    padding: 10px;
+    padding-top: 370px;
+}
+.home-payment {
+    background-image: url(images/home_info_payment.png);
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 445px;
+}
+#payimg{
+    background-image: url(images/home_info_payment.png);
+    background-size: cover;
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 445px;
+}
+.features-offer, #offerimg , .carousel-inner{
+    background-color: #e65f42;
+    border-radius: 20px;
+    height: 550px;
+}
+.fixed-bottom{
+    cursor: pointer;
+}
+.offer-text{
+    text-align: center;
+    color: #fff59f;
+}
+footer{
+    background-color: rgb(19, 18, 18);
+    width: 103%;
+    color: #5c5d5e; 
+    text-align: center;
+}
+footer a{
+    color: #5c5d5e; 
+    text-decoration: none;
+}
